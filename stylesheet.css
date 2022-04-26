@@ -4,12 +4,13 @@
   box-sizing: border-box;
 }
 
-p{
-	font-family: 'Open Sans', sans-serif;
+p {
+  font-family: "Open Sans", sans-serif;
 }
 
-h2, h3{
-	font-family: 'Inconsolata', monospace;
+h2,
+h3 {
+  font-family: "Inconsolata", monospace;
 }
 
 body {
@@ -23,7 +24,7 @@ header {
 
 #header {
   width: 100%;
-  background-image: url(pexels-andrew-neel-3132388.jpg);
+  background-image: url(./images/pexels-andrew-neel-3132388.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom center;
@@ -40,14 +41,14 @@ header {
   height: calc(100vh - 85vh);
 }
 
-#tagline h2{
-	font-size: 1.9em;
-	margin: 5px 0px;
+#tagline h2 {
+  font-size: 1.9em;
+  margin: 5px 0px;
 }
 
-#tagline p{
-	color: #747474;
-	margin: 5px 0px;
+#tagline p {
+  color: #747474;
+  margin: 5px 0px;
 }
 
 #grid {
@@ -71,8 +72,8 @@ header {
   height: 75vh;
 }
 
-#about h2{
-	padding: 1em 0;
+#about h2 {
+  padding: 1em 0;
 }
 
 #about p,
@@ -87,9 +88,9 @@ section a {
   text-align: left;
 }
 
-section a{
-	padding: 0;
-	color: #FF8A5B;
+section a {
+  padding: 0;
+  color: #ff8a5b;
 }
 
 #Mygear {
@@ -97,7 +98,7 @@ section a{
   grid-template-columns: 1fr;
   grid-template-rows: repeat(6, 1fr);
   place-items: center;
-  background: #EBEBEB;
+  background: #ebebeb;
   padding: 5vh 2vw;
 }
 
@@ -114,7 +115,7 @@ section a{
   text-align: left;
   width: 340px;
   padding: 10px 0;
-  color: #4C4C4C;
+  color: #4c4c4c;
 }
 
 #whats {
@@ -151,7 +152,7 @@ section {
 #socialMedia a {
   text-decoration: none;
   margin: 5px 30px;
-  color: #FF8A5B;
+  color: #ff8a5b;
 }
 
 footer {
@@ -159,7 +160,7 @@ footer {
   flex-direction: column;
   justify-content: space-evenly;
   height: 35vh;
-  background-color: #353A47;
+  background-color: #353a47;
   margin: 0 auto;
 }
 
@@ -206,12 +207,12 @@ footer p {
   section {
     padding-bottom: 7vw;
   }
-  
+
   #about p,
-section p,
-section a{
-	text-align: center;
-}
+  section p,
+  section a {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 1178px) {
@@ -219,16 +220,16 @@ section a{
     grid-template-rows: repeat(10, 200px);
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas:
-      'a a a a b b'
-      'a a a a c c'
-      'd d e e e e'
-      'd d e e e e'
-      'f f f g g g'
-      'f f f g g g'
-      'h h i i j j'
-      'h h i i j j'
-      'k k k k k k'
-      'k k k k k k';
+      "a a a a b b"
+      "a a a a c c"
+      "d d e e e e"
+      "d d e e e e"
+      "f f f g g g"
+      "f f f g g g"
+      "h h i i j j"
+      "h h i i j j"
+      "k k k k k k"
+      "k k k k k k";
     gap: 0;
   }
 
